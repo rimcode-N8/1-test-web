@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ریمکد - RemCode | خدمات برنامه‌نویسی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'vazir': ['Vazir', 'Tahoma', 'Arial', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazir', Tahoma, Arial, sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #60e084 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<!-- خوشحال میشیم اگر ایرادی تو کدها دیدی با ما به اشتراک بگذاری -->
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-8">
+                <h1 class="text-5xl font-bold mb-4">ریمکد</h1>
+                <h2 class="text-2xl font-light mb-2">RemCode</h2>
+                <div class="w-24 h-1 bg-white mx-auto rounded-full"></div>
+            </div>
+            <p class="text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
+                متخصص در توسعه پروژه‌های برنامه‌نویسی و ارائه راهکارهای نوآورانه
+            </p>
+            <div class="pulse-animation">
+                <span class="inline-block bg-white bg-opacity-20 px-6 py-3 rounded-full text-lg">
+                    🚀 آماده همکاری صمیمانه با شما هستیم
+                </span>
+            </div>
+        </div>
+    </header>
+   
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">خدمات ما</h3>
+                <p class="text-gray-600 text-lg">پروژه‌های برنامه‌نویسی با کیفیت بالا</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-hover bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">توسعه وب</h4>
+                    <p class="text-gray-600">طراحی و توسعه وب‌سایت‌های مدرن و ریسپانسیو</p>
+                </div>
+                
+                <div class="card-hover bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl text-center">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">اپلیکیشن موبایل</h4>
+                    <p class="text-gray-600">ساخت اپلیکیشن‌های موبایل برای اندروید و iOS</p>
+                </div>
+                
+                <div class="card-hover bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl text-center">
+                    <div class="text-4xl mb-4">🔧</div>
+                    <h4 class="text-xl font-semibold mb-3 text-gray-800">مشاوره فنی</h4>
+                    <p class="text-gray-600">مشاوره و راهنمایی در پروژه‌های برنامه‌نویسی</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">تماس با ما</h3>
+                <p class="text-gray-600 text-lg mb-8">از طریق روش‌های زیر می‌توانید با ما در ارتباط باشید</p>
+                <div class="bg-blue-100 border-r-4 border-blue-500 p-4 rounded-lg max-w-md mx-auto">
+                    <p class="text-blue-800 font-semibold text-lg">📞 636****0933</p>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-4xl mx-auto">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/98933****636" target="_blank" 
+                   class="card-hover bg-green-500 hover:bg-green-600 text-white p-6 rounded-xl text-center block transition-all duration-300">
+                    <div class="text-3xl mb-3">📱</div>
+                    <h4 class="font-semibold mb-2">واتساپ</h4>
+                    <p class="text-sm opacity-90">پیام فوری</p>
+                </a>
+                
+                <!-- Telegram -->
+                <a href="https://t.me/+98933****636" target="_blank"
+                   class="card-hover bg-blue-500 hover:bg-blue-600 text-white p-6 rounded-xl text-center block transition-all duration-300">
+                    <div class="text-3xl mb-3">✈️</div>
+                    <h4 class="font-semibold mb-2">تلگرام</h4>
+                    <p class="text-sm opacity-90">چت آنلاین</p>
+                </a>
+                
+                <!-- Eitaa -->
+                <a href="https://eitaa.com/+98933****636" target="_blank"
+                   class="card-hover bg-purple-500 hover:bg-purple-600 text-white p-6 rounded-xl text-center block transition-all duration-300">
+                    <div class="text-3xl mb-3">💬</div>
+                    <h4 class="font-semibold mb-2">ایتا</h4>
+                    <p class="text-sm opacity-90">پیام رسان</p>
+                </a>
+                
+                <!-- SMS -->
+                <a href="sms:0933****636" 
+                   class="card-hover bg-orange-500 hover:bg-orange-600 text-white p-6 rounded-xl text-center block transition-all duration-300">
+                    <div class="text-3xl mb-3">💌</div>
+                    <h4 class="font-semibold mb-2">پیامک</h4>
+                    <p class="text-sm opacity-90">SMS</p>
+                </a>
+                
+                <!-- Phone Call -->
+                <a href="tel:0933****636" 
+                   class="card-hover bg-red-500 hover:bg-red-600 text-white p-6 rounded-xl text-center block transition-all duration-300">
+                    <div class="text-3xl mb-3">📞</div>
+                    <h4 class="font-semibold mb-2">تماس</h4>
+                    <p class="text-sm opacity-90">مستقیم</p>
+                </a>
+            </div>
+            
+            <div class="text-center mt-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
+                    <h4 class="text-xl font-semibold mb-4 text-gray-800">⏰ ساعات پاسخگویی</h4>
+                    <p class="text-gray-600 mb-2">شنبه تا پنج‌شنبه: ۹:۰۰ تا ۱۸:۰۰</p>
+                    <p class="text-gray-600">جمعه: ۱۰:۰۰ تا ۱۴:۰۰</p>
+                    <div class="mt-4 p-3 bg-green-50 rounded-lg">
+                        <p class="text-green-700 text-sm">✅ پاسخ سریع در کمتر از ۲ ساعت</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">چرا ریمکد؟</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">⚡</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">سرعت بالا</h4>
+                    <p class="text-gray-600 text-sm">تحویل پروژه در کمترین زمان</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🎯</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">کیفیت بالا</h4>
+                    <p class="text-gray-600 text-sm">کد تمیز و استاندارد</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🤝</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">پشتیبانی</h4>
+                    <p class="text-gray-600 text-sm">پشتیبانی ۲۴/۷</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">💰</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">قیمت مناسب</h4>
+                    <p class="text-gray-600 text-sm">بهترین قیمت در بازار</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-8">
+                <h4 class="text-2xl font-bold mb-2">ریمکد - RemCode</h4>
+                <p class="text-blue-100">متخصص در توسعه نرم‌افزار</p>
+            </div>
+            
+            <div class="border-t border-white border-opacity-20 pt-8">
+                <p class="text-blue-100 mb-4">
+                    © ۲۰۲۴ تمامی حقوق مادی و معنوی متعلق به تیم ریمکد (RemCode) می‌باشد
+                </p>
+                <div class="flex justify-center items-center space-x-4 space-x-reverse">
+                    <span class="text-blue-100">📞</span>
+                    <span class="font-semibold">636****0933</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add click tracking for contact buttons
+        document.querySelectorAll('a[href^="https://wa.me"], a[href^="https://t.me"], a[href^="https://eitaa.com"], a[href^="sms:"], a[href^="tel:"]').forEach(link => {
+            link.addEventListener('click', function() {
+                console.log('Contact method clicked:', this.href);
+            });
+        });
+    </script>
+
+<p style="color:brown">این وبسایت یک وبسایت تست است . هیچ سندیت و عملیات پردازشی در واقیعت ندارد.*(کپی برداری از این وبسایت برای فعالیت های آموزشی مجاز است)*</p>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'969d5b7eb5a13650',t:'MTc1NDMwMzE5Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
